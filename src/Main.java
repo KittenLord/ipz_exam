@@ -1,7 +1,14 @@
 package exam;
 
+/**
+ *  The Main class that contains the entry point of the program
+ */
 public class Main {
 
+    /**
+     *  The entry point of the program
+     *  @param args The arguments to the program
+     */
     public static void main(String[] args) {
         WeatherStation station = WeatherStation.get();
 
